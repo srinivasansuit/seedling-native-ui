@@ -1521,6 +1521,8 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - RNSVG (15.11.2):
+    - React-Core
   - SocketRocket (0.7.0)
   - Yoga (0.0.0)
 
@@ -1590,6 +1592,7 @@ DEPENDENCIES:
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNSVG (from `../node_modules/react-native-svg`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1724,6 +1727,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1791,6 +1796,7 @@ SPEC CHECKSUMS:
   ReactCodegen: c672218d62eee3026615eeec882d862395e61cd8
   ReactCommon: c5f4dfc5a41d58a8013df370cf733de9782c7659
   RNScreens: b51f1a8be0dd7bb470b757f6cca8ba878acb2000
+  RNSVG: 8b18fe2c2884a86e5e2e008acee0f3503dc19ff2
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 5acecc29c9413933d57c9a26bc236fd0279bacb4
 
